@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tweets</title>
+</head>
+
+
+
+<body>
+
+    <div>
+
+        {%for i in tweets%}
+        <h2>{{tweets[i]["title"]}}</h2> 
+        <p>{{tweets[i]["text"]}}</p>                              
+        {%endfor%}
+    </div>
+    
+</body>
+</html>
